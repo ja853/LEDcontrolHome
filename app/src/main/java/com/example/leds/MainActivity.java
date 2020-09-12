@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(this, text, duration);
         toast.show();
 
-        String baseURL = "http://192.168.1.80:5000/";
+        String baseURL = "http://192.168.0.80:5000/";
         String request = "toggle";
         String JsonUrl = baseURL + request;
         JsonObjectRequest jsObjRequest = new JsonObjectRequest(
