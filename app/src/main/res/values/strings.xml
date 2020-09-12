@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LEDs</string>
     <string name="buttonText">Press me!</string>
+    <string name="tileName">LEDs</string>
 </resources>
